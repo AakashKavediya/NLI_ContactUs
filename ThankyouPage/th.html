@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thank You!</title>
+  <style>
+    /* Reset and Base Styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(135deg, #72EDF2 10%, #5151E5 100%);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      padding: 20px;
+    }
+    /* Container Styles */
+    .thankyou-container {
+      background: rgba(0, 0, 0, 0.3);
+      padding: 40px 30px;
+      border-radius: 20px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+      max-width: 500px;
+      width: 100%;
+      animation: fadeIn 1.2s ease-out;
+    }
+    /* Heading Styles */
+    .thankyou-container h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+      animation: slideDown 1s ease;
+    }
+    .thankyou-container p {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+      line-height: 1.5;
+      animation: slideUp 1s ease;
+    }
+    /* Button Styles */
+    .thankyou-container a {
+      display: inline-block;
+      text-decoration: none;
+      color: #5151E5;
+      background-color: #fff;
+      padding: 12px 25px;
+      border-radius: 50px;
+      font-weight: bold;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    .thankyou-container a:hover {
+      background-color: #e3e3e3;
+      color: #5151E5;
+    }
+    /* Animations */
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes slideDown {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes slideUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    /* Responsive Adjustments */
+    @media (max-width: 480px) {
+      .thankyou-container {
+        padding: 30px 20px;
+      }
+      .thankyou-container h1 {
+        font-size: 2.5em;
+      }
+      .thankyou-container p {
+        font-size: 1em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="thankyou-container">
+    <h1>Thank You!</h1>
+    <p>Your message has been successfully sent. We appreciate you reaching out and will get back to you shortly.</p>
+    <a href="../index.html">Back to Home</a>
+  </div>
+</body>
+</html>
