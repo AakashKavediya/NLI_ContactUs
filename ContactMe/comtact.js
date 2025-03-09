@@ -26,6 +26,8 @@ function submitForm(e) {
     const question = getElementVal("question");
     saveMessage(firstName, lastName, email, contact, year, domain, interest, question);
     document.getElementById("contactForm").reset();
+    window.location.href = "/ThankyouPage/th.html";
+    
     // console.log(name, email, subject, message);
 }
 
