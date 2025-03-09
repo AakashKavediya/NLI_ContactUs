@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Leap Labs</title>
+  <link rel="stylesheet" href="abey.css">
+</head>
+<body>
+    <header>
+        <img src="../src/images/logo.png" alt="Loading...">
+        <a href="../index.html">Go Home</a>
+      </header>
+
+  <div class="container">
+    <div class="left">
+      <h1>Contact Our Team</h1>
+      <h2>Why join us?</h2>
+      <p>Leap Labs is likely working on emerging technologies, AI, blockchain, or other frontier areas. If you're passionate about working on groundbreaking projects, it could be a great fit</p>
+    </div>
+
+    <div class="right">
+      <form id="contactForm" method="post">
+        <div class="form-container">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="first-name">First Name</label>
+              <input type="text" id="firstName" placeholder="Enter your First Name" required>
+            </div>
+            <div class="form-group">
+              <label for="last-name">Last Name</label>
+              <input type="text" id="lastName" placeholder="Enter your Last Name" required>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="For eg: xyz@somaiya.edu" required>
+            </div>
+            <div class="form-group">
+              <label for="contact">Contact No</label>
+              <input type="number" id="contact" placeholder="+91" required>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="year">Year/branch</label>
+              <input type="text" id="year" placeholder="For eg: FY-COMPS" required>
+            </div>
+            <div class="form-group">
+              <label for="domain">Preferred Domain</label>
+              <select id="domain" required>
+                <option selected disabled>Select any 1 or more than 1</option>
+                <option>Data Science</option>
+                <option>Software</option>
+                <option>XYZ</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="interest">Tell us why you are interested to join?</label>
+            <textarea id="interest" placeholder="Your Answer..." required></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="question">Next question goes in here?</label>
+            <textarea id="question" placeholder="Your Answer..." required></textarea>
+          </div>
+
+          <button type="submit" class="submit-btn">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <footer>
+    <div id="left">
+      <h3>FAQ</h3>
+      <p>Question number one?</p>
+      <p>Question number one?</p>
+      <p>Question number one?</p>
+    </div>
+    <div id="left2">
+      <h3>DETAILS</h3>
+      <p><span>ADDRESS</span> Vidyanagar, Vidya Vihar East, Vidyavihar, Mumbai, Maharashtra
+         Vidyanagar, Vidya Vihar East, Vidyavihar, Mumbai, Maharashtra 400077</p>
+      <p><span>CONTACT NO.</span> 98765 43235</p>
+      <p><span>MAIL US</span> <code>soamiya.hello@somaiya.edu</code></p>
+    </div>
+  </footer>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/9.6.11/firebase.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.11/firebase-app.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+  <script src="./comtact.js"></script>
+</body>
+</html>

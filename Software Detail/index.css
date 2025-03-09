@@ -1,0 +1,148 @@
+.card {
+    width: 100%;
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+.card-header {
+    position: relative;
+}
+
+.card-header img {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+}
+
+.contact-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: black;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    background: #f4f4f4;
+    padding: 10px;
+    height: 3.5vh;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.tab {
+    background: transparent;
+    border: none;
+    font-size: 14px;
+    padding: 5px 15px;
+
+    cursor: pointer;
+}
+
+.tab.active {
+    font-weight: bold;
+    background: black;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 15px;
+}
+
+.card-content {
+    padding: 15px;
+    padding-top: 0px;
+    overflow-y: scroll;
+    height: 34vh;
+}
+
+.tab-content {
+    display: none;
+    /* overflow-y: scroll; */
+    height: 40vh;
+}
+
+.tab-content.active {
+    display: block;
+}
+h3{
+    font-family: "Jaldi", sans-serif;
+    font-size: 20px;
+
+}
+h4{
+    font-family: "Jaldi", sans-serif;
+    font-size: 16px;
+}
+p{
+        font-family: "Jaldi", sans-serif;
+        font-size: 15px;
+}
+ul li{
+    font-family: "Jaldi", sans-serif;
+}
+ul{
+    margin-left: -10px;
+    font-size: 14px;
+}
+#timeLine{
+    background-color: #ededed;
+    display: flex;
+    flex-direction: column;
+    padding:5px;
+    width: 300px;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+#timeLine p{
+    padding: 0px;
+    margin: 2px;
+}
+#timeLine h5{
+    padding: 0px;
+    margin: 2px;
+}
+#block{
+    background-color: #ededed;
+    padding:5px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+#block p{
+    padding: 0px;
+    margin: 0px;
+    margin-left: 2px;
+    font-family: "Jaldi", sans-serif;
+    font-size: 14px;
+}
+#block h5{
+    padding: 0px;
+    margin: 2px;
+    font-family: "Jaldi", sans-serif;
+    font-size: 16px;
+}
+#block #left{
+    width: 30%;
+    
+}
+
+#block #left img{
+    width: 100%;
+    height: 80px;
+    border-radius: 10px;
+    
+}
+#block #right{
+    width: 68%;
+    margin-left: 10px;
+}
